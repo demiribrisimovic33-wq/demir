@@ -1,0 +1,61 @@
+# Query: main2.py
+# ContextLines: 1
+
+# intiger
+x = 5
+y = -200
+z = 1000
+
+# seštevanje
+print(x+y)
+# odštevanje
+print(x-y)
+# množenje
+print(x*z)
+# deljenje
+print(x/3)
+# celoštevilsko deljenje
+print(x // 3)
+# deljenje z ostankom
+print(30 % 7) # celi4, ostanek 2
+# potenciranje
+print(7**12)
+# primerjalne
+# ==, !=, <, >, <=, >= 
+print(x == y)
+print(x != y)
+print(x < y)
+print(x > y)
+print(x <= y)
+print(x >= y)
+
+# pretvarjanje iz str v int
+stevilo = "123"
+print(int(stevilo) % 6)
+# pretvarjanje iz str v int
+stwvilo = "123a"
+print(int(stevilo) % 6)
+# decimalna števila
+x = 3.14
+y = -0.001
+z = 2.5e6 # 2.5 * 10**6
+
+# čisto vse aritmetične (+,-,/,//,*,**)
+# so iste kot pri intih
+
+# math.floor(), math.celi(), round()
+import math
+#floor - zaokroževanje navzdol
+print(math.ceil(x))
+#ceil - zaokroževanje navzdol
+print(math.ceil(x))
+# round
+print(round(x, 1))
+
+
+#izračunaj indeks telesne mase
+# enačbo poišči na spletu
+visina = 180
+teza = 90
+ITM = 
+print(ITM
