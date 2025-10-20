@@ -1,1 +1,131 @@
-a
+
+Python
+input-račun-print
+
+
+1) MENJAVA VALUTE
+eur = float(input("EUR: "))
+cena_btc = float(input("Cena 1 BTC v 1 EUR. "))
+TODO: izracunaj in izpiši koliko BTC dobiš
+
+vrednost = eur/cena_btc Print(vrednost)
+
+Vprašanje: Koliko bi danes stalo 10000 BTC (pica iz leta 2010)?
+Odgovor:
+
+0.32 - cena 1 bitcoina v letu 2010
+31.25 euro danes bi bilo 3297508.75 bitcoina
+
+2) TEMPERATURE
+c = float(input("Temperatura v °C:"))
+TODO: pretvori)°C v °F in izpiši f = c  9/5 + 32 print(f, "°F")
+vprašanje:
+Koliko °F je na pri 0°C, 37°C, 50°C, 100°C?
+
+Odgovor:
+
+3) KVADRAT IN KOCKA
+n = float(input("Vnesi število: "))
+TODO: izračunaj kvadrat in kocko števila in izpiši
+kvadrat = n*n
+kocka = n*n*n
+print(kvadrat, kocka)
+Vprašanje:
+Kolikšna je površina kvadrata s stranico 100m?
+Koliko krat večji je od kvadrata s stranico 10m?
+Odgovor:
+
+4) POPUST
+cena = float(input8"Cena izdelka(€):")) popust = float(input("Popust(%)"))
+TODO: izračunaj in izpiši končno ceno po popustu
+
+racun = (cena*popust/100)
+
+print(cena-racun)
+
+Vprašanje:
+Koliko prihraniš pri popustu 25% za pri avtu za 27.500€?
+kakšna je razlika med 40% popustom in dveh zaporednih popustov 20% popustov?
+Odgovor:
+
+5)PRAVOKOTNIK
+a =float(input(Dolžina (m):"))")
+b =float(input(Širina (m):"))"
+"TODO: izračunaj obseg in ploščino pravokotnika"
+
+obseg = a*2+b*2"
+ploščina = a*b"
+
+print(obseg, ploscina)
+Vprašanje:
+Ce imaš 40m ograje, katera oblika pokrije največjo površino?
+Odgovor: kvadrat pokrije največjo površino
+
+6) KROG
+r = float(input("Polmer kroga(m):"))
+TODO: izračunaj obseg in ploščino kroga (Π = 3.14)
+
+ploscina = r*r * 3.14
+print(ploscina)
+
+Vprašanje:
+Kaj je daljše, obseg 0.5l pločevinke ali višina 0.5l steklenice?
+Kolikšna bi bila ploščina in obseg kroga, če bi imel obseg enak dolžini
+ekvatorja(-40 075 km)?
+Odgovor: 
+
+7) PIZZA
+premer = float(input("Cena pice (€):"))
+TODO: izračunaj ceno pice na cm2 in izpiši
+povrsina = 3.14*(premer/2)**2
+naKvadrat = površina/cena_pice
+Vprašanje:
+Koliko bi morala stati pizza premera 30cm,
+da je enako ugodna kot pizza premera 40 cm za 15€?
+Odgovor: 
+
+8) HITROST
+pot = float(input("Pot (km):"))
+cas = float(input(Čas (h):"))"
+TODO: izračunaj povprečno hitrost
+
+rezultat = pot/čas
+
+print(rezultat)
+
+vprašanje:
+kako hitro bi moral potovati, da prideš do lune v 1 dnevu, 1 mesecu
+in 1 letu (do lune je 384400km)?
+Odgovor:
+
+9) PORABA GORIVA
+km = float(input(Kilometri):"))
+litri = float(input)(Lirti):"))
+TODO: izračunaj porabo v 1l/100km
+
+prevozil = km/litri
+print(f"(km) km uporaba=",prevozil)
+
+Vprašanje:
+Ce je cena gorive 1.65€/l,
+koliko stane vožnja 1000km?
+Koliko bi stal "road trip" okoli sveta po ekvatorju8-40000 km)?
+kaj pa do lune in nazaj?
+Odgovor:
+
+10) BARVA ZA SOBO
+dolzina = float(input("Dolžina sobe (m):"))
+sirina = float(input("širina sobe(m):"))
+visina = float(input("Višina sobe(m):"))
+pokrivnost = float(input("Pokrivnost sobe(m):"))
+TODO: izračunaj površino sten + stropa in potrebne litre barva
+
+stena = dolzina*visina
+stena2 = sirina*sirina
+strop = dolzina*sirina
+
+PloscinaVsega=stena+stena+stena2+stena2+strop
+vprašanje:
+Če delaš dva vnosa, koliko litrov barve zdaj potrebuješ?
+Ce ena kantica svebuje 2.5l barve, koliko kantic potrebuješ?
+Odgovor: 
